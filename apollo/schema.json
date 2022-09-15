@@ -1,0 +1,473 @@
+{
+    "data": {
+        "__schema": {
+            "types": [
+                {
+                    "name": "Query",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAsset",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "String",
+                    "kind": "SCALAR",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetTransformUrl",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetImageFormats",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetDisableValues",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetFitValues",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "Int",
+                    "kind": "SCALAR",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetOrientValues",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetOverlayAlignValues",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetOverlayRepeatValues",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetAutoValues",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetDispositionValues",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetDimension",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "JSON",
+                    "kind": "SCALAR",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetSystemField",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "DateTime",
+                    "kind": "SCALAR",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SystemPublishDetails",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysExtensionConnection",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysExtensionEdge",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysMetadata",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "Boolean",
+                    "kind": "SCALAR",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "AllSysAsset",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetDimensionWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetOrderBy",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "Article",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetConnection",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "SysAssetEdge",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleContent",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleContentConnection",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleContentEdge",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleContentNode",
+                    "kind": "UNION",
+                    "possibleTypes": [
+                        {
+                            "name": "SysAsset"
+                        }
+                    ]
+                },
+                {
+                    "name": "ArticleAuthorConnection",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleAuthorEdge",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleAuthorNode",
+                    "kind": "UNION",
+                    "possibleTypes": [
+                        {
+                            "name": "Author"
+                        }
+                    ]
+                },
+                {
+                    "name": "Author",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "EntrySystemField",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleMeta",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "AllArticle",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleAuthorWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "AuthorWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "EvalReferenceEnum",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleMetaWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ArticleOrderBy",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "AllAuthor",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "AuthorOrderBy",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ExternalArticle",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ExternalArticleExcerpt",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ExternalArticleExcerptConnection",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ExternalArticleExcerptEdge",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ExternalArticleExcerptNode",
+                    "kind": "UNION",
+                    "possibleTypes": [
+                        {
+                            "name": "SysAsset"
+                        }
+                    ]
+                },
+                {
+                    "name": "AllExternalArticle",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ExternalArticleWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "ExternalArticleOrderBy",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPage",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocks",
+                    "kind": "UNION",
+                    "possibleTypes": [
+                        {
+                            "name": "FrontPageFrontPageBlocksLeadArticle"
+                        },
+                        {
+                            "name": "FrontPageFrontPageBlocksExternalArticle"
+                        },
+                        {
+                            "name": "FrontPageFrontPageBlocksPullQuote"
+                        }
+                    ]
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksLeadArticle",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksLeadArticleBlock",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksLeadArticleBlockReferenceConnection",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksLeadArticleBlockReferenceEdge",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksLeadArticleBlockReferenceNode",
+                    "kind": "UNION",
+                    "possibleTypes": [
+                        {
+                            "name": "Article"
+                        }
+                    ]
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksExternalArticle",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksExternalArticleBlock",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksExternalArticleBlockReferenceConnection",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksExternalArticleBlockReferenceEdge",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksExternalArticleBlockReferenceNode",
+                    "kind": "UNION",
+                    "possibleTypes": [
+                        {
+                            "name": "ExternalArticle"
+                        }
+                    ]
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksPullQuote",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksPullQuoteBlock",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "AllFrontPage",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksLeadArticleBlockWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksLeadArticleBlockReferenceWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksExternalArticleBlockWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksExternalArticleBlockReferenceWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageFrontPageBlocksPullQuoteBlockWhere",
+                    "kind": "INPUT_OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "FrontPageOrderBy",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "__Schema",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "__Type",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "__TypeKind",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "__Field",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "__InputValue",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "__EnumValue",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "__Directive",
+                    "kind": "OBJECT",
+                    "possibleTypes": null
+                },
+                {
+                    "name": "__DirectiveLocation",
+                    "kind": "ENUM",
+                    "possibleTypes": null
+                }
+            ]
+        }
+    }
+}
